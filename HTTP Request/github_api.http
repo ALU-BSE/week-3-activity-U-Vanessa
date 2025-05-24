@@ -1,0 +1,12 @@
+GET https://api.github.com/users/octocat
+
+# List octocat's public repositories
+GET https://api.github.com/users/octocat/repos
+
+###
+
+# Get details of a specific repository
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
